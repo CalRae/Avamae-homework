@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fff;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: 000;
+}
+
+.Company-name {
+  padding: 0.1em;
+  padding-right: 50%;
+}
+
+.Company-logo {
+  height: 50em;
+  width: 20em;
+  background-image: url(../Resources/Img_Contact.png);
+  background-size: 100% 100%;
+  margin-left: 5em;
+}
+
+.Company-logo-rotated {
+  height: 1em;
+  width: 3em;
+  background-image: url(../Resources/Img_Contact.png);
+  background-size: 100% 100%;
+  transform: rotate(90);
+}
+
+.App-link {
+  color: #000;
+  padding: 0.1em;
+  margin: 0.1em;
+  background-color: #eee;
+}
+
+.App-pannel {
+  height: 40em;
+  background-color: #fff;
+  color: 0;
+  flex-direction: row;
+  align-items: left;
+  border: 2em;
+  border-color: crimson;
+}
+
+.App-top-pannel {
+  background-image: url(../Resources/shutterstock_407632243.jpg);
+  min-height: 40em;
+}
+
+.App-third-Pannel {
+  background-image: url(../Resources/shutterstock_1302552622.jpg);
+  min-height: 40em;
+  align-items: center center;
+}
+
+.App-second-pannel-text {
+  height: 30em;
+  width: 40em;
+  margin-left: 20em;
+}
+
+.App-third-pannel-bloc {
+  height: 20em;
+  width: 30em;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 2em;
+  margin-top: 10em;
+  margin-left: 10em;
+}
+
+.App-second-pannel-image {
+  background-image: url(../Resources/shutterstock_696636346.jpg);
+  height: 30em;
+  width: 40em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.App-About-us-pannel {
+  align-items: center center;
+  padding: 6em;
+}
+
+.App-about-us-image{
+  background-image: url(../Resources/shutterstock_696636415.jpg);
+  height: 20em;
+  width: 30em;
+  background-size: 100% 100%;
+}
+
+.App-unordered-list {
+  font-weight: bolder;
+  justify-content: left;
+}
+
+.App-two-column-body {
+  column-count: 2;
+}
+
+.App-three-column-body {
+  column-count: 3;
+}
